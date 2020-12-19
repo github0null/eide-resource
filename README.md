@@ -1,7 +1,34 @@
-模板命名规则：
-- <模板名>.<作者名>.eide-template
+## index.json 接口
 
-***
+index.json 类型为 TemplateInfo[]
 
-注意:
-- 名称不要含有 . 字符
+```typescript
+
+export type TemplateCategory =
+    '8051' | 'STM8' | 'PIC' | 'STM32' | 'MM32' | 'GD32' | 'NXP' | // vendor type
+    'FreeRTOS' | 'uCOS-II' | 'RT-Thread-Nano' | // OS type
+
+export interface TemplateInfo {
+
+    file_name: string;
+
+    display_name: string;
+
+    category: TemplateCategory[];
+
+    version: string;
+    
+    author: string | undefined;
+
+    download_url: string | undefined;
+
+    size: number | undefined;
+
+    disabled: boolean | undefined;
+
+    upload_time: string | undefined;
+
+    update_time: string | undefined;
+}
+
+```
