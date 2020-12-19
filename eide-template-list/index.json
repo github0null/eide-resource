@@ -1,32 +1,32 @@
 {
     "category_map": {
         "8051": {
-            "display_name": "8051 (MCS51)",
-            "description": "8051 Series Project"
+            "display_name": "8051",
+            "description": "MCS51 Series MCU"
         },
         "STM8": {
             "display_name": "STM8",
-            "description": ""
+            "description": "ST 8Bit MCU"
         },
         "PIC": {
-            "display_name": "PIC (Microchip)",
-            "description": ""
+            "display_name": "PIC",
+            "description": "Microchip MCU"
         },
         "STM32": {
             "display_name": "STM32",
-            "description": ""
+            "description": "ST 32Bit MCU"
         },
         "MM32": {
-            "display_name": "MM32 (MindMotion 32Bit MCU)",
-            "description": ""
+            "display_name": "MM32",
+            "description": "MindMotion 32Bit MCU"
         },
         "GD32": {
-            "display_name": "GD32 (GigaDevice 32Bit MCU)",
-            "description": ""
+            "display_name": "GD32",
+            "description": "GigaDevice 32Bit MCU"
         },
         "NXP": {
             "display_name": "NXP",
-            "description": ""
+            "description": "NXP MCU"
         },
         "FreeRTOS": {
             "display_name": "FreeRTOS",
