@@ -103,8 +103,18 @@
             "update_time": "4 months ago"
         },
         {
-            "file_name": "stm32f1xx_quickstart.eide-template",
-            "display_name": "STM32F1XX Demo (Blink)",
+            "file_name": "stm32f1xx_uart_demo.eide-template",
+            "display_name": "STM32F1XX USART Demo (With Keil CMSIS pack)",
+            "category": [
+                "STM32"
+            ],
+            "version": "1.0",
+            "author": "github0null",
+            "update_time": "4 months ago"
+        },
+        {
+            "file_name": "stm32f1xx_blink_demo.eide-template",
+            "display_name": "STM32F1XX Blink Demo (With STM32F10x StdPeriph Lib V3.5.0)",
             "category": [
                 "STM32"
             ],
@@ -114,7 +124,7 @@
         },
         {
             "file_name": "stm32f1xx_gcc_quickstart.eide-template",
-            "display_name": "STM32F1XX Demo (With GCC Toolchain)",
+            "display_name": "STM32F1XX Blink Demo (With GCC Toolchain)",
             "category": [
                 "STM32"
             ],
@@ -124,7 +134,7 @@
         },
         {
             "file_name": "stm32f1xx_FreeRTOS_quickstart.eide-template",
-            "display_name": "STM32F1XX Demo (With FreeRTOS)",
+            "display_name": "STM32F1XX Blink Demo (With FreeRTOS)",
             "category": [
                 "STM32",
                 "FreeRTOS"
@@ -135,7 +145,7 @@
         },
         {
             "file_name": "stm32f1xx_RT-Thread-Nano_quickstart.eide-template",
-            "display_name": "STM32F1XX Demo (With RT-Thread-Nano)",
+            "display_name": "STM32F1XX Blink Demo (With RT-Thread-Nano)",
             "category": [
                 "STM32",
                 "RT-Thread-Nano"
@@ -146,7 +156,7 @@
         },
         {
             "file_name": "stm32f1xx_uCOS-II_quickstart.eide-template",
-            "display_name": "STM32F1XX Demo (With uCOS-II)",
+            "display_name": "STM32F1XX Blink Demo (With uCOS-II)",
             "category": [
                 "STM32",
                 "uCOS-II"
@@ -157,7 +167,7 @@
         },
         {
             "file_name": "stm32f4xx_quickstart.eide-template",
-            "display_name": "STM32F4XX Demo (Blink)",
+            "display_name": "STM32F4XX Blink Demo",
             "category": [
                 "STM32"
             ],
