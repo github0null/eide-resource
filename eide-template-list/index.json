@@ -44,13 +44,23 @@
     "template_list": [
         {
             "file_name": "mcs51_sdcc_dht11_quickstart.eide-template",
-            "display_name": "8051 SDCC Demo",
+            "display_name": "8051 DHT11 Demo (With SDCC Toolchain)",
             "category": [
                 "8051"
             ],
             "version": "1.0",
             "author": "github0null",
             "update_time": "4 months ago"
+        },
+		{
+            "file_name": "stc15_demo.eide-template",
+            "display_name": "STC15 Demo (With Keil C51 Toolchain)",
+            "category": [
+                "8051"
+            ],
+            "version": "1.0",
+            "author": "github0null",
+            "update_time": "1 hour ago"
         },
         {
             "file_name": "stm8s103f3_quickstart.eide-template",
