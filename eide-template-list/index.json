@@ -4,6 +4,10 @@
             "display_name": "8051",
             "description": "MCS51"
         },
+		"Nuvoton": {
+            "display_name": "Nuvoton",
+            "description": "Nuvoton"
+		},
         "STM8": {
             "display_name": "STM8",
             "description": "ST"
@@ -59,8 +63,16 @@
                 "8051"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "1 hour ago"
+            "author": "github0null"
+        },
+        {
+            "file_name": "n76e003_demo.eide-template",
+            "display_name": "Nuvoton N76E003 Demo (With Keil C51 Toolchain)",
+            "category": [
+                "Nuvoton"
+            ],
+            "version": "1.0",
+            "author": "github0null"
         },
         {
             "file_name": "stm8s103f3_quickstart.eide-template",
@@ -129,8 +141,7 @@
                 "STM32"
             ],
             "version": "1.1",
-            "author": "github0null",
-            "update_time": "1 hour ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f1xx_gcc_quickstart.eide-template",
@@ -139,8 +150,7 @@
                 "STM32"
             ],
             "version": "1.1",
-            "author": "github0null",
-            "update_time": "1 hour ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f1xx_FreeRTOS_quickstart.eide-template",
