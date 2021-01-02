@@ -9,7 +9,7 @@
             "description": "Nuvoton"
 		},
         "st/stm8": {
-            "display_name": "st/stm8",
+            "display_name": "STM8",
             "description": "ST"
         },
         "PIC": {
@@ -128,7 +128,7 @@
             "file_name": "stm32f1xx_uart_demo.eide-template",
             "display_name": "STM32F1XX USART Demo (With Keil CMSIS pack)",
             "category": [
-                "STM32"
+                "st/stm32"
             ],
             "version": "1.0",
             "author": "github0null",
@@ -138,7 +138,7 @@
             "file_name": "stm32f1xx_blink_demo.eide-template",
             "display_name": "STM32F1XX Blink Demo (With STM32F10x StdPeriph Lib V3.5.0)",
             "category": [
-                "STM32"
+                "st/stm32"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -147,7 +147,7 @@
             "file_name": "stm32f1xx_gcc_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (With GCC Toolchain)",
             "category": [
-                "STM32"
+                "st/stm32"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -156,7 +156,7 @@
             "file_name": "stm32f1xx_FreeRTOS_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (With FreeRTOS)",
             "category": [
-                "STM32",
+                "st/stm32",
                 "FreeRTOS"
             ],
             "version": "1.0",
@@ -167,7 +167,7 @@
             "file_name": "stm32f1xx_RT-Thread-Nano_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (With RT-Thread-Nano)",
             "category": [
-                "STM32",
+                "st/stm32",
                 "RT-Thread-Nano"
             ],
             "version": "1.0",
@@ -178,7 +178,7 @@
             "file_name": "stm32f1xx_uCOS-II_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (With uCOS-II)",
             "category": [
-                "STM32",
+                "st/stm32",
                 "uCOS-II"
             ],
             "version": "1.0",
@@ -189,7 +189,7 @@
             "file_name": "stm32f4xx_quickstart.eide-template",
             "display_name": "STM32F4XX Blink Demo",
             "category": [
-                "STM32"
+                "st/stm32"
             ],
             "version": "1.0",
             "author": "github0null",
@@ -199,7 +199,7 @@
             "file_name": "stm32f407_CubeMX_FreeRTOS+FatFs+USB_device_demo.eide-template",
             "display_name": "STM32F407VGT6 FreeRTOS + FatFs + USB_device Demo",
             "category": [
-                "STM32",
+                "st/stm32",
                 "FreeRTOS"
             ],
             "version": "1.0",
@@ -210,7 +210,7 @@
             "file_name": "stm32f103c8_cubeMX_demo.eide-template",
             "display_name": "STM32F103C8 Demo (With STM32CubeMX)",
             "category": [
-                "STM32"
+                "st/stm32"
             ],
             "version": "1.0",
             "author": "github0null",
@@ -220,7 +220,7 @@
             "file_name": "stm32f103c8_ucos-ii_cubeMX_demo.eide-template",
             "display_name": "STM32F103C8 Demo (With uCOS-II, STM32CubeMX)",
             "category": [
-                "STM32"
+                "st/stm32"
             ],
             "version": "1.0",
             "author": "github0null",
