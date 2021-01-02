@@ -4,19 +4,19 @@
             "display_name": "8051",
             "description": "MCS51"
         },
-		"Nuvoton": {
-            "display_name": "Nuvoton",
+		"nuvoton/8051": {
+            "display_name": "Nuvoton 8051 Series",
             "description": "Nuvoton"
 		},
-        "STM8": {
-            "display_name": "STM8",
+        "st/stm8": {
+            "display_name": "st/stm8",
             "description": "ST"
         },
         "PIC": {
             "display_name": "PIC",
             "description": "Microchip"
         },
-        "STM32": {
+        "st/stm32": {
             "display_name": "STM32",
             "description": "ST"
         },
@@ -69,7 +69,7 @@
             "file_name": "n76e003_demo.eide-template",
             "display_name": "Nuvoton N76E003 Demo (With Keil C51 Toolchain)",
             "category": [
-                "Nuvoton"
+                "nuvoton/8051"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -78,7 +78,7 @@
             "file_name": "stm8s103f3_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (Blink)",
             "category": [
-                "STM8"
+                "st/stm8"
             ],
             "version": "1.0",
             "author": "github0null",
@@ -88,7 +88,7 @@
             "file_name": "stm8s103f3_dht11_sensor_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (With DHT11 Sensor)",
             "category": [
-                "STM8"
+                "st/stm8"
             ],
             "version": "1.0",
             "author": "github0null",
@@ -98,7 +98,7 @@
             "file_name": "stm8s103f3_oled_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (With OLED SSD1306)",
             "category": [
-                "STM8"
+                "st/stm8"
             ],
             "version": "1.0",
             "author": "github0null",
@@ -108,7 +108,7 @@
             "file_name": "stm8s103f3_sdcc_demo.eide-template",
             "display_name": "STM8S103F3 Demo (With SDCC Toolchain)",
             "category": [
-                "STM8"
+                "st/stm8"
             ],
             "version": "1.0",
             "author": "github0null",
