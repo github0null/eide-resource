@@ -1,8 +1,12 @@
 {
     "category_map": {
         "8051": {
-            "display_name": "8051",
-            "description": "MCS51"
+            "display_name": "Universal 8051",
+            "description": ""
+        },
+        "STC/STC15": {
+            "display_name": "STC15",
+            "description": "STC15 Series"
         },
 		"Nuvoton/8051": {
             "display_name": "8051",
@@ -12,21 +16,45 @@
             "display_name": "Cortex-M",
             "description": "Nuvoton Cortex-M Series"
 		},
-        "ST/STM8": {
-            "display_name": "STM8",
+        "ST/STM8/STM8S": {
+            "display_name": "STM8S",
             "description": ""
         },
-        "ST/STM32": {
-            "display_name": "STM32",
+        "ST/STM8/STM8L": {
+            "display_name": "STM8L",
             "description": ""
+        },
+        "ST/STM32/STM32F1": {
+            "display_name": "STM32F1",
+            "description": "F1 Series"
+        },
+        "ST/STM32/STM32F4": {
+            "display_name": "STM32F4",
+            "description": "F4 Series"
+        },
+        "HDSC/HC32L": {
+            "display_name": "HC32L",
+            "description": "Low-power"
+        },
+        "HDSC/HC32F": {
+            "display_name": "HC32F",
+            "description": ""
+        },
+        "HDSC/HC32M": {
+            "display_name": "HC32M",
+            "description": "Motor"
         },
         "PIC": {
             "display_name": "PIC",
             "description": "Microchip"
         },
-        "MM32": {
-            "display_name": "MM32",
-            "description": "MindMotion"
+        "MindMotion/MM32F": {
+            "display_name": "MM32F",
+            "description": ""
+        },
+        "MindMotion/MM32L": {
+            "display_name": "MM32L",
+            "description": "Low-power"
         },
         "GD32": {
             "display_name": "GD32",
@@ -36,20 +64,29 @@
             "display_name": "NXP",
             "description": ""
         },
-        "FreeRTOS": {
+        "RTOS/FreeRTOS": {
             "display_name": "FreeRTOS",
             "description": ""
         },
-        "uCOS-II": {
+        "RTOS/uCOS-II": {
             "display_name": "uCOS-II",
             "description": ""
         },
-        "RT-Thread-Nano": {
-            "display_name": "RT-Thread-Nano",
+        "RTOS/RT-Thread/Nano": {
+            "display_name": "Nano",
             "description": ""
         }
     },
     "template_list": [
+        {
+            "file_name": "HC32L110_demo.eide-template",
+            "display_name": "HC32L110 Demo (With ARMCC Toolchain)",
+            "category": [
+                "HDSC/HC32L"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
         {
             "file_name": "mcs51_sdcc_dht11_quickstart.eide-template",
             "display_name": "8051 DHT11 Demo (With SDCC Toolchain)",
@@ -57,14 +94,13 @@
                 "8051"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
 		{
             "file_name": "stc15_demo.eide-template",
             "display_name": "STC15 Demo (With Keil C51 Toolchain)",
             "category": [
-                "8051"
+                "STC/STC15"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -82,67 +118,61 @@
             "file_name": "stm8s103f3_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (Blink)",
             "category": [
-                "ST/STM8"
+                "ST/STM8/STM8S"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm8s103f3_dht11_sensor_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (With DHT11 Sensor)",
             "category": [
-                "ST/STM8"
+                "ST/STM8/STM8S"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm8s103f3_oled_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (With OLED SSD1306)",
             "category": [
-                "ST/STM8"
+                "ST/STM8/STM8S"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm8s103f3_sdcc_demo.eide-template",
             "display_name": "STM8S103F3 Demo (With SDCC Toolchain)",
             "category": [
-                "ST/STM8"
+                "ST/STM8/STM8S"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "mm32f103c8_quickstart.eide-template",
             "display_name": "MM32F103C8 Demo (MindMotion MCU)",
             "category": [
-                "MM32"
+                "MindMotion/MM32F"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f1xx_uart_demo.eide-template",
             "display_name": "STM32F1XX USART Demo (With Keil CMSIS pack)",
             "category": [
-                "ST/STM32"
+                "ST/STM32/STM32F1"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f1xx_blink_demo.eide-template",
             "display_name": "STM32F1XX Blink Demo (With STM32F10x StdPeriph Lib V3.5.0)",
             "category": [
-                "ST/STM32"
+                "ST/STM32/STM32F1"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -151,7 +181,7 @@
             "file_name": "stm32f1xx_gcc_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (With GCC Toolchain)",
             "category": [
-                "ST/STM32"
+                "ST/STM32/STM32F1"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -160,75 +190,69 @@
             "file_name": "stm32f1xx_FreeRTOS_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (With FreeRTOS)",
             "category": [
-                "ST/STM32",
-                "FreeRTOS"
+                "ST/STM32/STM32F1",
+                "RTOS/FreeRTOS"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f1xx_RT-Thread-Nano_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (With RT-Thread-Nano)",
             "category": [
-                "ST/STM32",
-                "RT-Thread-Nano"
+                "ST/STM32/STM32F1",
+                "RTOS/RT-Thread/Nano"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f1xx_uCOS-II_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (With uCOS-II)",
             "category": [
-                "ST/STM32",
-                "uCOS-II"
+                "ST/STM32/STM32F1",
+                "RTOS/uCOS-II"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f4xx_quickstart.eide-template",
             "display_name": "STM32F4XX Blink Demo",
             "category": [
-                "ST/STM32"
+                "ST/STM32/STM32F4"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f407_CubeMX_FreeRTOS+FatFs+USB_device_demo.eide-template",
             "display_name": "STM32F407VGT6 FreeRTOS + FatFs + USB_device Demo",
             "category": [
-                "ST/STM32",
-                "FreeRTOS"
+                "ST/STM32/STM32F4",
+                "RTOS/FreeRTOS"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f103c8_cubeMX_demo.eide-template",
             "display_name": "STM32F103C8 Demo (With STM32CubeMX)",
             "category": [
-                "ST/STM32"
+                "ST/STM32/STM32F1"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         },
         {
             "file_name": "stm32f103c8_ucos-ii_cubeMX_demo.eide-template",
             "display_name": "STM32F103C8 Demo (With uCOS-II, STM32CubeMX)",
             "category": [
-                "ST/STM32"
+                "ST/STM32/STM32F1",
+                "RTOS/uCOS-II"
             ],
             "version": "1.0",
-            "author": "github0null",
-            "update_time": "4 months ago"
+            "author": "github0null"
         }
     ]
 }
