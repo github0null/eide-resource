@@ -4,36 +4,35 @@ index.json 类型为 TemplateIndexDef 的 json 对象
 
 ```typescript
 
-export type Category =
-    '8051' | 'STM8' | 'PIC' | 'STM32' | 'MM32' | 'GD32' | 'NXP' | // vendor type
-    'FreeRTOS' | 'uCOS-II' | 'RT-Thread-Nano' | // OS type
-
+// 模板分类
 export interface CategoryInfo {
-    display_name: string;
-    description: string;
+    display_name: string;   // 用于显示的名称
+    description: string;    // 简短的描述
 }
 
 export interface TemplateInfo {
 
-    file_name: string;
+    file_name: string; // 模板文件名
 
-    display_name: string;
+    display_name: string; // 用于显示的名称
 
-    category: string[];
+    category: string[]; // 模板所属的分类
 
-    version: string;
+    version: string; // 版本
 
-    author: string | undefined;
+    author: string | undefined; // 作者名称
+    
+    upload_time: string | undefined; // 上传时间
+
+    update_time: string | undefined; // 上次更新时间
+
+    // ----- 忽略以下字段 -----------
 
     download_url: string | undefined;
 
     size: number | undefined;
 
     disabled: boolean | undefined;
-
-    upload_time: string | undefined;
-
-    update_time: string | undefined;
 }
 
 export interface TemplateIndexDef {
