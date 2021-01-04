@@ -8,14 +8,14 @@
             "display_name": "STC15",
             "description": "STC15 Series"
         },
-		"Nuvoton/8051": {
+        "Nuvoton/8051": {
             "display_name": "8051",
             "description": "Nuvoton 8051 Series"
         },
         "Nuvoton/Cortex-M": {
             "display_name": "Cortex-M",
             "description": "Nuvoton Cortex-M Series"
-		},
+        },
         "ST/STM8/STM8S": {
             "display_name": "STM8S",
             "description": ""
@@ -31,6 +31,10 @@
         "ST/STM32/STM32F4": {
             "display_name": "STM32F4",
             "description": "F4 Series"
+        },
+        "HDSC": {
+            "display_name": "HDSC",
+            "description": "华大单片机"
         },
         "HDSC/HC32L": {
             "display_name": "HC32L",
@@ -80,7 +84,7 @@
     "template_list": [
         {
             "file_name": "HC32L110_demo.eide-template",
-            "display_name": "HC32L110 Demo (With ARMCC Toolchain)",
+            "display_name": "HC32L110 Demo (for HC32L110C6PA)",
             "category": [
                 "HDSC/HC32L"
             ],
@@ -96,7 +100,7 @@
             "version": "1.0",
             "author": "github0null"
         },
-		{
+        {
             "file_name": "stc15_demo.eide-template",
             "display_name": "STC15 Demo (With Keil C51 Toolchain)",
             "category": [
