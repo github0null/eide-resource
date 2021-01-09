@@ -83,6 +83,15 @@
     },
     "template_list": [
         {
+            "file_name": "MS51EC0AE_demo.eide-template",
+            "display_name": "MS51EC0AE Demo",
+            "category": [
+                "Nuvoton/8051"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
             "file_name": "HC32L110_demo.eide-template",
             "display_name": "HC32L110 Demo (for HC32L110C6PA)",
             "category": [
