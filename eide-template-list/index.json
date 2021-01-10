@@ -72,6 +72,10 @@
             "display_name": "GD32",
             "description": "GigaDevice"
         },
+        "GD32/F1": {
+            "display_name": "F1",
+            "description": "GD32F1xx"
+        },
         "NXP": {
             "display_name": "NXP",
             "description": ""
@@ -90,6 +94,15 @@
         }
     },
     "template_list": [
+		{
+            "file_name": "gd_gd32f103c8_demo.eide-template",
+            "display_name": "GD32F1xx Demo",
+            "category": [
+                "GD32/F1"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
         {
             "file_name": "nuvoton_mini58xx_demo.eide-template",
             "display_name": "MINI58xx Demo",
