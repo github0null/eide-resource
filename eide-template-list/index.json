@@ -9,12 +9,20 @@
             "description": "STC15 Series"
         },
         "Nuvoton/8051": {
-            "display_name": "8051",
-            "description": "Nuvoton 8051 Series"
+            "display_name": "8051 Series",
+            "description": ""
         },
-        "Nuvoton/Cortex-M": {
-            "display_name": "Cortex-M",
-            "description": "Nuvoton Cortex-M Series"
+        "Nuvoton/8051/N7XE": {
+            "display_name": "N7xE Series",
+            "description": ""
+        },
+        "Nuvoton/8051/MS51": {
+            "display_name": "MS51 Series",
+            "description": ""
+        },
+        "Nuvoton/M0": {
+            "display_name": "Cortex-M0 Series",
+            "description": ""
         },
         "ST/STM8/STM8S": {
             "display_name": "STM8S",
@@ -83,10 +91,19 @@
     },
     "template_list": [
         {
-            "file_name": "MS51EC0AE_demo.eide-template",
-            "display_name": "MS51EC0AE Demo",
+            "file_name": "NUC029XAN_demo.eide-template",
+            "display_name": "NUC029XAN Demo",
             "category": [
-                "Nuvoton/8051"
+                "Nuvoton/M0"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
+            "file_name": "MS51EC0AE_demo.eide-template",
+            "display_name": "MS51xx Demo (With Keil C51 Toolchain)",
+            "category": [
+                "Nuvoton/8051/MS51"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -120,9 +137,9 @@
         },
         {
             "file_name": "n76e003_demo.eide-template",
-            "display_name": "Nuvoton N76E003 Demo (With Keil C51 Toolchain)",
+            "display_name": "N76E003 Demo (With Keil C51 Toolchain)",
             "category": [
-                "Nuvoton/8051"
+                "Nuvoton/8051/N7XE"
             ],
             "version": "1.0",
             "author": "github0null"
