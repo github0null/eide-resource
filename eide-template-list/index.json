@@ -13,15 +13,15 @@
             "description": ""
         },
         "Nuvoton/8051/N7XE": {
-            "display_name": "N7xE Series",
+            "display_name": "N7xE",
             "description": ""
         },
         "Nuvoton/8051/MS51": {
-            "display_name": "MS51 Series",
+            "display_name": "MS51",
             "description": ""
         },
         "Nuvoton/M0": {
-            "display_name": "Cortex-M0 Series",
+            "display_name": "Cortex-M0",
             "description": ""
         },
         "ST/STM8/STM8S": {
