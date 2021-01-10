@@ -9,7 +9,7 @@
             "description": "STC15 Series"
         },
         "Nuvoton/8051": {
-            "display_name": "8051 Series",
+            "display_name": "8051",
             "description": ""
         },
         "Nuvoton/8051/N7XE": {
