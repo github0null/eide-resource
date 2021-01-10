@@ -91,6 +91,15 @@
     },
     "template_list": [
         {
+            "file_name": "nuvoton_mini58xx_demo.eide-template",
+            "display_name": "MINI58xx Demo",
+            "category": [
+                "Nuvoton/M0"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
             "file_name": "NUC029XAN_demo.eide-template",
             "display_name": "NUC029XAN Demo",
             "category": [
