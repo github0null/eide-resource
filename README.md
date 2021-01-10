@@ -25,14 +25,6 @@ export interface TemplateInfo {
     upload_time: string | undefined; // 上传时间
 
     update_time: string | undefined; // 上次更新时间
-
-    // ----- 忽略以下字段 -----------
-
-    download_url: string | undefined;
-
-    size: number | undefined;
-
-    disabled: boolean | undefined;
 }
 
 export interface TemplateIndexDef {
