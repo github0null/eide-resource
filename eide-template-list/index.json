@@ -122,8 +122,8 @@
             "author": "github0null"
         },
         {
-            "file_name": "MS51EC0AE_demo.eide-template",
-            "display_name": "MS51xx Demo (With Keil C51 Toolchain)",
+            "file_name": "MS51XC0AE_demo.eide-template",
+            "display_name": "MS51XC0AE Demo (With Keil C51 Toolchain)",
             "category": [
                 "Nuvoton/8051/MS51"
             ],
@@ -131,12 +131,22 @@
             "author": "github0null"
         },
         {
+            "file_name": "MS51XB9AE_demo.eide-template",
+            "display_name": "MS51XB9AE/MS51XB9BE Demo (With Keil C51 Toolchain)",
+            "category": [
+                "Nuvoton/8051/MS51"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+
+        },
+        {
             "file_name": "HC32L110_demo.eide-template",
             "display_name": "HC32L110 Demo (for HC32L110C6PA)",
             "category": [
                 "HDSC/HC32L"
             ],
-            "version": "1.0",
+            "version": "1.1",
             "author": "github0null"
         },
         {
