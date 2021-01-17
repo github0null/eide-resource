@@ -1,7 +1,7 @@
 {
     "category_map": {
         "8051": {
-            "display_name": "Universal 8051",
+            "display_name": "General 8051",
             "description": ""
         },
         "STC/STC15": {
@@ -79,6 +79,10 @@
         "NXP": {
             "display_name": "NXP",
             "description": ""
+        },
+        "RTOS": {
+            "display_name": "RTOS",
+            "description": "Real-Time Operating System"
         },
         "RTOS/FreeRTOS": {
             "display_name": "FreeRTOS",
