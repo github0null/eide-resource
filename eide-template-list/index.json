@@ -56,6 +56,18 @@
             "display_name": "HC32M",
             "description": "Motor"
         },
+        "HK": {
+            "display_name": "HK",
+            "description": "航顺单片机"
+        },
+        "HK/HK32": {
+            "display_name": "HK32",
+            "description": "32 Bit MCU"
+        },
+        "HK/HK32/F0": {
+            "display_name": "HK32F0",
+            "description": "Cortex-M0 Series"
+        },
         "PIC": {
             "display_name": "PIC",
             "description": "Microchip"
@@ -98,7 +110,16 @@
         }
     },
     "template_list": [
-		{
+        {
+            "file_name": "hk32f030m_demo.eide-template",
+            "display_name": "HK32F030Mxx Demo (ARMCC toolchain only)",
+            "category": [
+                "HK/HK32/F0"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
             "file_name": "gd_gd32f103c8_demo.eide-template",
             "display_name": "GD32F1xx Demo",
             "category": [
@@ -142,7 +163,6 @@
             ],
             "version": "1.0",
             "author": "github0null"
-
         },
         {
             "file_name": "HC32L110_demo.eide-template",
