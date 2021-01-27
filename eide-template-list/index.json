@@ -4,9 +4,17 @@
             "display_name": "General 8051",
             "description": ""
         },
+        "STC": {
+            "display_name": "STC",
+            "description": "宏晶"
+        },
         "STC/STC15": {
             "display_name": "STC15",
             "description": "STC15 Series"
+        },
+        "Nuvoton": {
+            "display_name": "新唐",
+            "description": ""
         },
         "Nuvoton/8051": {
             "display_name": "8051",
@@ -22,6 +30,10 @@
         },
         "Nuvoton/M0": {
             "display_name": "Cortex-M0",
+            "description": ""
+        },
+        "ST": {
+            "display_name": "STMicroelectronics",
             "description": ""
         },
         "ST/STM8/STM8S": {
@@ -42,7 +54,7 @@
         },
         "HDSC": {
             "display_name": "HDSC",
-            "description": "华大单片机"
+            "description": "华大"
         },
         "HDSC/HC32L": {
             "display_name": "HC32L",
@@ -58,7 +70,7 @@
         },
         "HK": {
             "display_name": "HK",
-            "description": "航顺单片机"
+            "description": "航顺"
         },
         "HK/HK32": {
             "display_name": "HK32",
@@ -71,6 +83,10 @@
         "PIC": {
             "display_name": "PIC",
             "description": "Microchip"
+        },
+        "MindMotion": {
+            "display_name": "MindMotion",
+            "description": "灵动"
         },
         "MindMotion/MM32F": {
             "display_name": "MM32F",
