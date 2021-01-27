@@ -13,8 +13,8 @@
             "description": "STC15 Series"
         },
         "Nuvoton": {
-            "display_name": "新唐",
-            "description": ""
+            "display_name": "Nuvoton",
+            "description": "新唐"
         },
         "Nuvoton/8051": {
             "display_name": "8051",
