@@ -12,6 +12,14 @@
             "display_name": "STC15",
             "description": "STC15 Series"
         },
+		"ES": {
+            "display_name": "EastSoft",
+            "description": "东软载波"
+		},
+		"ES/M0": {
+            "display_name": "Cortex-M0",
+            "description": ""
+		},
         "Nuvoton": {
             "display_name": "Nuvoton",
             "description": "新唐"
@@ -126,6 +134,15 @@
         }
     },
     "template_list": [
+        {
+            "file_name": "HR8P506_demo.eide-template",
+            "display_name": "HR8P506 Demo (ARMCC, GCC toolchain)",
+            "category": [
+                "ES/M0"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
         {
             "file_name": "hk32f030m_demo.eide-template",
             "display_name": "HK32F030Mxx Demo (ARMCC toolchain only)",
