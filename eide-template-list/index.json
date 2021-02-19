@@ -312,7 +312,7 @@
                 "ST/STM32/STM32F1",
                 "RTOS/FreeRTOS"
             ],
-            "version": "1.0",
+            "version": "1.1",
             "author": "github0null"
         },
         {
