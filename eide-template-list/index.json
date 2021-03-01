@@ -4,6 +4,14 @@
             "display_name": "General 8051",
             "description": ""
         },
+        "WCH": {
+            "display_name": "WCH",
+            "description": "沁恒"
+        },
+        "WCH/8051": {
+            "display_name": "8051",
+            "description": ""
+        },
         "STC": {
             "display_name": "STC",
             "description": "宏晶"
@@ -12,14 +20,14 @@
             "display_name": "STC15",
             "description": "STC15 Series"
         },
-		"ES": {
+        "ES": {
             "display_name": "EastSoft",
             "description": "东软载波"
-		},
-		"ES/M0": {
+        },
+        "ES/M0": {
             "display_name": "Cortex-M0",
             "description": ""
-		},
+        },
         "Nuvoton": {
             "display_name": "Nuvoton",
             "description": "新唐"
@@ -134,6 +142,15 @@
         }
     },
     "template_list": [
+        {
+            "file_name": "ch554_sdcc.eide-template",
+            "display_name": "CH554 demo (SDCC toolchain)",
+            "category": [
+                "WCH/8051"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
         {
             "file_name": "HR8P506_demo.eide-template",
             "display_name": "HR8P506 Demo (ARMCC, GCC toolchain)",
