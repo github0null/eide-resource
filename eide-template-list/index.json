@@ -353,12 +353,12 @@
             "author": "github0null"
         },
         {
-            "file_name": "stm32f4xx_quickstart.eide-template",
-            "display_name": "STM32F4XX Blink Demo",
+            "file_name": "stm32f4xx_cubemx_demo.eide-template",
+            "display_name": "STM32F407 Blink Demo (STM32CubeMX, GCC)",
             "category": [
                 "ST/STM32/STM32F4"
             ],
-            "version": "1.0",
+            "version": "1.1",
             "author": "github0null"
         },
         {
