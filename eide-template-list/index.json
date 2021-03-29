@@ -234,7 +234,16 @@
         },
         {
             "file_name": "stc15_demo.eide-template",
-            "display_name": "STC15 Demo (With Keil C51 Toolchain)",
+            "display_name": "STC15xx Demo (With Keil C51 Toolchain)",
+            "category": [
+                "STC/STC15"
+            ],
+            "version": "1.1",
+            "author": "github0null"
+        },
+        {
+            "file_name": "stc15f104w_sdcc_demo.eide-template",
+            "display_name": "STC15F104W Demo (SDCC Toolchain)",
             "category": [
                 "STC/STC15"
             ],
