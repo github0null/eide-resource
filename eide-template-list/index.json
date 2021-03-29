@@ -198,7 +198,7 @@
         },
         {
             "file_name": "MS51XC0AE_demo.eide-template",
-            "display_name": "MS51XC0AE Demo (With Keil C51 Toolchain)",
+            "display_name": "MS51XC0AE Demo (Keil C51 Toolchain)",
             "category": [
                 "Nuvoton/8051/MS51"
             ],
@@ -207,7 +207,7 @@
         },
         {
             "file_name": "MS51XB9AE_demo.eide-template",
-            "display_name": "MS51XB9AE/MS51XB9BE Demo (With Keil C51 Toolchain)",
+            "display_name": "MS51XB9AE/MS51XB9BE Demo (Keil C51 Toolchain)",
             "category": [
                 "Nuvoton/8051/MS51"
             ],
@@ -225,16 +225,16 @@
         },
         {
             "file_name": "mcs51_sdcc_dht11_quickstart.eide-template",
-            "display_name": "8051 DHT11 Demo (With SDCC Toolchain)",
+            "display_name": "8051 DHT11 Demo (SDCC Toolchain)",
             "category": [
                 "8051"
             ],
-            "version": "1.1",
+            "version": "1.2",
             "author": "github0null"
         },
         {
             "file_name": "stc15_demo.eide-template",
-            "display_name": "STC15xx Demo (With Keil C51 Toolchain)",
+            "display_name": "STC15xx Demo (Keil C51 Toolchain)",
             "category": [
                 "STC/STC15"
             ],
@@ -252,7 +252,7 @@
         },
         {
             "file_name": "n76e003_demo.eide-template",
-            "display_name": "N76E003 Demo (With Keil C51 Toolchain)",
+            "display_name": "N76E003 Demo (Keil C51 Toolchain)",
             "category": [
                 "Nuvoton/8051/N7XE"
             ],
@@ -270,7 +270,7 @@
         },
         {
             "file_name": "stm8s103f3_dht11_sensor_quickstart.eide-template",
-            "display_name": "STM8S103F3 Demo (With DHT11 Sensor)",
+            "display_name": "STM8S103F3 Demo (DHT11 Sensor)",
             "category": [
                 "ST/STM8/STM8S"
             ],
@@ -279,7 +279,7 @@
         },
         {
             "file_name": "stm8s103f3_oled_quickstart.eide-template",
-            "display_name": "STM8S103F3 Demo (With OLED SSD1306)",
+            "display_name": "STM8S103F3 Demo (OLED SSD1306)",
             "category": [
                 "ST/STM8/STM8S"
             ],
@@ -288,7 +288,7 @@
         },
         {
             "file_name": "stm8s103f3_sdcc_quickstart.eide-template",
-            "display_name": "STM8S103F3 Demo (With SDCC Toolchain)",
+            "display_name": "STM8S103F3 Demo (SDCC Toolchain)",
             "category": [
                 "ST/STM8/STM8S"
             ],
@@ -306,7 +306,7 @@
         },
         {
             "file_name": "stm32f1xx_uart_demo.eide-template",
-            "display_name": "STM32F1XX USART Demo (With Keil CMSIS pack)",
+            "display_name": "STM32F1XX USART Demo (Keil CMSIS pack)",
             "category": [
                 "ST/STM32/STM32F1"
             ],
@@ -315,7 +315,7 @@
         },
         {
             "file_name": "stm32f1xx_blink_demo.eide-template",
-            "display_name": "STM32F1XX Blink Demo (With STM32F10x StdPeriph Lib V3.5.0)",
+            "display_name": "STM32F1XX Blink Demo (STM32F10x StdPeriph Lib V3.5.0)",
             "category": [
                 "ST/STM32/STM32F1"
             ],
@@ -324,7 +324,7 @@
         },
         {
             "file_name": "stm32f1xx_gcc_quickstart.eide-template",
-            "display_name": "STM32F1XX Blink Demo (With GCC Toolchain)",
+            "display_name": "STM32F1XX Blink Demo (GCC Toolchain)",
             "category": [
                 "ST/STM32/STM32F1"
             ],
@@ -333,7 +333,7 @@
         },
         {
             "file_name": "stm32f1xx_FreeRTOS_quickstart.eide-template",
-            "display_name": "STM32F1XX Blink Demo (With FreeRTOS)",
+            "display_name": "STM32F1XX Blink Demo (FreeRTOS)",
             "category": [
                 "ST/STM32/STM32F1",
                 "RTOS/FreeRTOS"
@@ -343,7 +343,7 @@
         },
         {
             "file_name": "stm32f1xx_RT-Thread-Nano_quickstart.eide-template",
-            "display_name": "STM32F1XX Blink Demo (With RT-Thread-Nano)",
+            "display_name": "STM32F1XX Blink Demo (RT-Thread-Nano)",
             "category": [
                 "ST/STM32/STM32F1",
                 "RTOS/RT-Thread/Nano"
@@ -353,7 +353,7 @@
         },
         {
             "file_name": "stm32f1xx_uCOS-II_quickstart.eide-template",
-            "display_name": "STM32F1XX Blink Demo (With uCOS-II)",
+            "display_name": "STM32F1XX Blink Demo (uCOS-II)",
             "category": [
                 "ST/STM32/STM32F1",
                 "RTOS/uCOS-II"
@@ -382,7 +382,7 @@
         },
         {
             "file_name": "stm32f103c8_cubeMX_demo.eide-template",
-            "display_name": "STM32F103C8 Demo (With STM32CubeMX)",
+            "display_name": "STM32F103C8 Demo (STM32CubeMX)",
             "category": [
                 "ST/STM32/STM32F1"
             ],
@@ -391,7 +391,7 @@
         },
         {
             "file_name": "stm32f103c8_ucos-ii_cubeMX_demo.eide-template",
-            "display_name": "STM32F103C8 Demo (With uCOS-II, STM32CubeMX)",
+            "display_name": "STM32F103C8 Demo (uCOS-II, STM32CubeMX)",
             "category": [
                 "ST/STM32/STM32F1",
                 "RTOS/uCOS-II"
