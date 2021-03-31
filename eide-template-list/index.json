@@ -1,7 +1,7 @@
 {
     "category_map": {
         "8051": {
-            "display_name": "General 8051",
+            "display_name": "8051",
             "description": ""
         },
         "WCH": {
@@ -230,6 +230,15 @@
                 "8051"
             ],
             "version": "1.2",
+            "author": "github0null"
+        },
+        {
+            "file_name": "89c52_sdcc_demo.eide-template",
+            "display_name": "89c52 sdcc demo (SDCC Toolchain)",
+            "category": [
+                "8051"
+            ],
+            "version": "1.0",
             "author": "github0null"
         },
         {
