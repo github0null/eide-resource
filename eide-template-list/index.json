@@ -120,6 +120,14 @@
             "display_name": "F1",
             "description": "GD32F1xx"
         },
+        "GD32/RISCV": {
+            "display_name": "RISC-V",
+            "description": "GD32 RISC-V"
+        },
+        "GD32/RISCV/F1": {
+            "display_name": "F1",
+            "description": "GD32VF1xx"
+        },
         "NXP": {
             "display_name": "NXP",
             "description": ""
@@ -174,6 +182,15 @@
             "display_name": "GD32F1xx Demo",
             "category": [
                 "GD32/F1"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+		{
+            "file_name": "gd32vf103_demo.eide-template",
+            "display_name": "GD32VF103 Demo (RISC-V)",
+            "category": [
+                "GD32/RISCV/F1"
             ],
             "version": "1.0",
             "author": "github0null"
