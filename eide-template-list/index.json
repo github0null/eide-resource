@@ -147,9 +147,26 @@
         "RTOS/RT-Thread/Nano": {
             "display_name": "Nano",
             "description": ""
+        },
+        "K210": {
+            "display_name": "K210",
+            "description": ""
+        },
+        "K210/C++": {
+            "display_name": "Standalone SDK",
+            "description": ""
         }
     },
     "template_list": [
+        {
+            "file_name": "k210_demo.eide-template",
+            "display_name": "K210 Standalone SDK (hello world demo)",
+            "category": [
+                "K210/C++"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
         {
             "file_name": "ch554_sdcc.eide-template",
             "display_name": "CH554 demo (SDCC toolchain)",
