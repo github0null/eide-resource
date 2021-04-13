@@ -68,6 +68,10 @@
             "display_name": "STM32F4",
             "description": "F4 Series"
         },
+        "ST/STM32/C++": {
+            "display_name": "C++ SDK",
+            "description": "Use C++"
+        },
         "HDSC": {
             "display_name": "HDSC",
             "description": "华大"
@@ -158,6 +162,15 @@
         }
     },
     "template_list": [
+        {
+            "file_name": "stm32f10x_md_cpp_demo.eide-template",
+            "display_name": "STM32F10x C++ SDK (gcc toolchain, medium density)",
+            "category": [
+                "ST/STM32/C++"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
         {
             "file_name": "k210_demo.eide-template",
             "display_name": "K210 Standalone SDK (hello world demo)",
