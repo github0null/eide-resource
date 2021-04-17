@@ -163,8 +163,8 @@
     },
     "template_list": [
         {
-            "file_name": "stm32f030_cpp_demo.eide-template",
-            "display_name": "STM32F030 C++ SDK (gcc toolchain, `F030` series)",
+            "file_name": "stm32f030xx_cpp_demo.eide-template",
+            "display_name": "STM32F030 C++ SDK (gcc toolchain, F030 series)",
             "category": [
                 "ST/STM32/C++"
             ],
@@ -173,7 +173,7 @@
         },
         {
             "file_name": "stm32f100_mdvl_cpp_demo.eide-template",
-            "display_name": "STM32F100 C++ SDK (gcc toolchain, `MD_VL` series)",
+            "display_name": "STM32F100 C++ SDK (gcc toolchain, MD_VL series)",
             "category": [
                 "ST/STM32/C++"
             ],
@@ -182,7 +182,7 @@
         },
         {
             "file_name": "stm32f10x_hd_cpp_demo.eide-template",
-            "display_name": "STM32F10x C++ SDK (gcc toolchain, `high` density)",
+            "display_name": "STM32F10x C++ SDK (gcc toolchain, high density)",
             "category": [
                 "ST/STM32/C++"
             ],
@@ -191,7 +191,7 @@
         },
         {
             "file_name": "stm32f10x_md_cpp_demo.eide-template",
-            "display_name": "STM32F10x C++ SDK (gcc toolchain, `medium` density)",
+            "display_name": "STM32F10x C++ SDK (gcc toolchain, medium density)",
             "category": [
                 "ST/STM32/C++"
             ],
