@@ -163,6 +163,15 @@
     },
     "template_list": [
         {
+            "file_name": "stm32f407xx_cpp_demo.eide-template",
+            "display_name": "STM32F407xx C++ SDK (gcc toolchain, F407 series, hard floatpoint)",
+            "category": [
+                "ST/STM32/C++"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
             "file_name": "stm32f030xx_cpp_demo.eide-template",
             "display_name": "STM32F030 C++ SDK (gcc toolchain, F030 series)",
             "category": [
