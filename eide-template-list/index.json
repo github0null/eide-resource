@@ -50,7 +50,7 @@
         },
         "ST": {
             "display_name": "STMicroelectronics",
-            "description": ""
+            "description": "意法半导体"
         },
         "ST/STM8/STM8S": {
             "display_name": "STM8S",
@@ -70,7 +70,7 @@
         },
         "ST/STM32/C++": {
             "display_name": "C++ SDK",
-            "description": "Use C++"
+            "description": "with stm32plus c++ library"
         },
         "HDSC": {
             "display_name": "HDSC",
@@ -163,8 +163,35 @@
     },
     "template_list": [
         {
+            "file_name": "stm32f030_cpp_demo.eide-template",
+            "display_name": "STM32F030 C++ SDK (gcc toolchain, `F030` series)",
+            "category": [
+                "ST/STM32/C++"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
+            "file_name": "stm32f100_mdvl_cpp_demo.eide-template",
+            "display_name": "STM32F100 C++ SDK (gcc toolchain, `MD_VL` series)",
+            "category": [
+                "ST/STM32/C++"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
+            "file_name": "stm32f10x_hd_cpp_demo.eide-template",
+            "display_name": "STM32F10x C++ SDK (gcc toolchain, `high` density)",
+            "category": [
+                "ST/STM32/C++"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
             "file_name": "stm32f10x_md_cpp_demo.eide-template",
-            "display_name": "STM32F10x C++ SDK (gcc toolchain, medium density)",
+            "display_name": "STM32F10x C++ SDK (gcc toolchain, `medium` density)",
             "category": [
                 "ST/STM32/C++"
             ],
