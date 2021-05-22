@@ -171,6 +171,15 @@
     },
     "template_list": [
         {
+            "file_name": "pic18f2550_demo.eide-template",
+            "display_name": "pic18f2550 demo (sdcc, pic16, gputils)",
+            "category": [
+                "PIC/PIC16"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
             "file_name": "pic16f886_demo.eide-template",
             "display_name": "pic16f886 demo (sdcc, pic14, gputils)",
             "category": [
