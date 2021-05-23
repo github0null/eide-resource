@@ -112,6 +112,14 @@
             "display_name": "PIC16",
             "description": "PIC 16bit"
         },
+        "Padauk": {
+            "display_name": "Padauk",
+            "description": "应广"
+        },
+        "Padauk/MTP": {
+            "display_name": "MTP",
+            "description": "PF[S|C] Series"
+        },
         "MindMotion": {
             "display_name": "MindMotion",
             "description": "灵动"
@@ -170,6 +178,15 @@
         }
     },
     "template_list": [
+        {
+            "file_name": "pfs173_demo.eide-template",
+            "display_name": "padauk pfs173 demo (sdcc, pdk15)",
+            "category": [
+                "Padauk/MTP"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
         {
             "file_name": "pic18f2550_demo.eide-template",
             "display_name": "pic18f2550 demo (sdcc, pic16, gputils)",
