@@ -1,154 +1,158 @@
 {
     "category_map": {
-        "8051": {
+        "MCU": {
+            "display_name": "MCU",
+            "description": "芯片"
+        },
+        "MCU/8051": {
             "display_name": "8051",
             "description": ""
         },
-        "WCH": {
+        "MCU/WCH": {
             "display_name": "WCH",
             "description": "沁恒"
         },
-        "WCH/8051": {
+        "MCU/WCH/8051": {
             "display_name": "8051",
             "description": ""
         },
-        "STC": {
+        "MCU/STC": {
             "display_name": "STC",
             "description": "宏晶"
         },
-        "STC/STC15": {
+        "MCU/STC/STC15": {
             "display_name": "STC15",
             "description": "STC15 Series"
         },
-        "ES": {
+        "MCU/ES": {
             "display_name": "EastSoft",
             "description": "东软载波"
         },
-        "ES/M0": {
+        "MCU/ES/M0": {
             "display_name": "Cortex-M0",
             "description": ""
         },
-        "Nuvoton": {
+        "MCU/Nuvoton": {
             "display_name": "Nuvoton",
             "description": "新唐"
         },
-        "Nuvoton/8051": {
+        "MCU/Nuvoton/8051": {
             "display_name": "8051",
             "description": ""
         },
-        "Nuvoton/8051/N7XE": {
+        "MCU/Nuvoton/8051/N7XE": {
             "display_name": "N7xE",
             "description": ""
         },
-        "Nuvoton/8051/MS51": {
+        "MCU/Nuvoton/8051/MS51": {
             "display_name": "MS51",
             "description": ""
         },
-        "Nuvoton/M0": {
+        "MCU/Nuvoton/M0": {
             "display_name": "Cortex-M0",
             "description": ""
         },
-        "ST": {
+        "MCU/ST": {
             "display_name": "STMicroelectronics",
             "description": "意法半导体"
         },
-        "ST/STM8/STM8S": {
+        "MCU/ST/STM8/STM8S": {
             "display_name": "STM8S",
             "description": ""
         },
-        "ST/STM8/STM8L": {
+        "MCU/ST/STM8/STM8L": {
             "display_name": "STM8L",
             "description": ""
         },
-        "ST/STM32/STM32F1": {
+        "MCU/ST/STM32/STM32F1": {
             "display_name": "STM32F1",
             "description": "F1 Series"
         },
-        "ST/STM32/STM32F4": {
+        "MCU/ST/STM32/STM32F4": {
             "display_name": "STM32F4",
             "description": "F4 Series"
         },
-        "ST/STM32/C++": {
+        "MCU/ST/STM32/C++": {
             "display_name": "C++ SDK",
             "description": "with stm32plus c++ library"
         },
-        "HDSC": {
+        "MCU/HDSC": {
             "display_name": "HDSC",
             "description": "华大"
         },
-        "HDSC/HC32L": {
+        "MCU/HDSC/HC32L": {
             "display_name": "HC32L",
             "description": "Low-power"
         },
-        "HDSC/HC32F": {
+        "MCU/HDSC/HC32F": {
             "display_name": "HC32F",
             "description": ""
         },
-        "HDSC/HC32M": {
+        "MCU/HDSC/HC32M": {
             "display_name": "HC32M",
             "description": "Motor"
         },
-        "HK": {
+        "MCU/HK": {
             "display_name": "HK",
             "description": "航顺"
         },
-        "HK/HK32": {
+        "MCU/HK/HK32": {
             "display_name": "HK32",
             "description": "32 Bit MCU"
         },
-        "HK/HK32/F0": {
+        "MCU/HK/HK32/F0": {
             "display_name": "HK32F0",
             "description": "Cortex-M0 Series"
         },
-        "PIC": {
+        "MCU/PIC": {
             "display_name": "PIC",
             "description": "Microchip"
         },
-        "PIC/PIC14": {
+        "MCU/PIC/PIC14": {
             "display_name": "PIC14",
             "description": "PIC 14bit"
         },
-        "PIC/PIC16": {
+        "MCU/PIC/PIC16": {
             "display_name": "PIC16",
             "description": "PIC 16bit"
         },
-        "Padauk": {
+        "MCU/Padauk": {
             "display_name": "Padauk",
             "description": "应广"
         },
-        "Padauk/MTP": {
+        "MCU/Padauk/MTP": {
             "display_name": "MTP",
             "description": "PF[S|C] Series"
         },
-        "MindMotion": {
+        "MCU/MindMotion": {
             "display_name": "MindMotion",
             "description": "灵动"
         },
-        "MindMotion/MM32F": {
+        "MCU/MindMotion/MM32F": {
             "display_name": "MM32F",
             "description": ""
         },
-        "MindMotion/MM32L": {
+        "MCU/MindMotion/MM32L": {
             "display_name": "MM32L",
             "description": "Low-power"
         },
-        "GD32": {
+        "MCU/GD32": {
             "display_name": "GD32",
             "description": "GigaDevice"
         },
-        "GD32/F1": {
+        "MCU/GD32/F1": {
             "display_name": "F1",
             "description": "GD32F1xx"
         },
-        "GD32/RISCV": {
+        "MCU/GD32/RISCV": {
             "display_name": "RISC-V",
             "description": "GD32 RISC-V"
         },
-        "GD32/RISCV/F1": {
+        "MCU/GD32/RISCV/F1": {
             "display_name": "F1",
             "description": "GD32VF1xx"
         },
-        "NXP": {
+        "MCU/NXP": {
             "display_name": "NXP",
             "description": ""
         },
@@ -168,17 +172,17 @@
             "display_name": "Nano",
             "description": ""
         },
-        "K210": {
+        "Board": {
+            "display_name": "Board",
+            "description": "开发板"
+        },
+        "Board/K210": {
             "display_name": "K210",
             "description": ""
         },
-        "K210/C++": {
+        "Board/K210/C++": {
             "display_name": "Standalone SDK",
             "description": ""
-        },
-        "Board": {
-            "display_name": "Dev Board",
-            "description": "开发板"
         },
         "Board/WeAct": {
             "display_name": "WeAct",
@@ -190,7 +194,7 @@
             "file_name": "WeAct_H750_bootloader.eide-template",
             "display_name": "WeAct STM32H750VBT6 QSPI FLASH bootloader (qspi, gcc, bootloader)",
             "category": [
-                "Board/WeAct"
+                "MCU/Board/WeAct"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -199,7 +203,7 @@
             "file_name": "WeAct_H750_QSPI.eide-template",
             "display_name": "WeAct STM32H750VBT6 QSPI FLASH demo (qspi, gcc, FreeRTOS)",
             "category": [
-                "Board/WeAct"
+                "MCU/Board/WeAct"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -208,7 +212,7 @@
             "file_name": "pfs173_demo.eide-template",
             "display_name": "padauk pfs173 demo (sdcc, pdk15)",
             "category": [
-                "Padauk/MTP"
+                "MCU/Padauk/MTP"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -217,7 +221,7 @@
             "file_name": "pic18f2550_demo.eide-template",
             "display_name": "pic18f2550 demo (sdcc, pic16, gputils)",
             "category": [
-                "PIC/PIC16"
+                "MCU/PIC/PIC16"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -226,7 +230,7 @@
             "file_name": "pic16f886_demo.eide-template",
             "display_name": "pic16f886 demo (sdcc, pic14, gputils)",
             "category": [
-                "PIC/PIC14"
+                "MCU/PIC/PIC14"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -235,7 +239,7 @@
             "file_name": "stm32f407xx_cpp_demo.eide-template",
             "display_name": "STM32F407xx C++ SDK (gcc toolchain, F407 series, hard floatpoint)",
             "category": [
-                "ST/STM32/C++"
+                "MCU/ST/STM32/C++"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -244,7 +248,7 @@
             "file_name": "stm32f030xx_cpp_demo.eide-template",
             "display_name": "STM32F030 C++ SDK (gcc toolchain, F030 series)",
             "category": [
-                "ST/STM32/C++"
+                "MCU/ST/STM32/C++"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -253,7 +257,7 @@
             "file_name": "stm32f100_mdvl_cpp_demo.eide-template",
             "display_name": "STM32F100 C++ SDK (gcc toolchain, MD_VL series)",
             "category": [
-                "ST/STM32/C++"
+                "MCU/ST/STM32/C++"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -262,7 +266,7 @@
             "file_name": "stm32f10x_hd_cpp_demo.eide-template",
             "display_name": "STM32F10x C++ SDK (gcc toolchain, high density)",
             "category": [
-                "ST/STM32/C++"
+                "MCU/ST/STM32/C++"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -271,7 +275,7 @@
             "file_name": "stm32f10x_md_cpp_demo.eide-template",
             "display_name": "STM32F10x C++ SDK (gcc toolchain, medium density)",
             "category": [
-                "ST/STM32/C++"
+                "MCU/ST/STM32/C++"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -280,7 +284,7 @@
             "file_name": "k210_demo.eide-template",
             "display_name": "K210 Standalone SDK (hello world demo)",
             "category": [
-                "K210/C++"
+                "Board/K210/C++"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -289,7 +293,7 @@
             "file_name": "ch554_sdcc.eide-template",
             "display_name": "CH554 demo (SDCC toolchain)",
             "category": [
-                "WCH/8051"
+                "MCU/WCH/8051"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -298,7 +302,7 @@
             "file_name": "HR8P506_demo.eide-template",
             "display_name": "HR8P506 Demo (ARMCC, GCC toolchain)",
             "category": [
-                "ES/M0"
+                "MCU/ES/M0"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -307,7 +311,7 @@
             "file_name": "hk32f030m_demo.eide-template",
             "display_name": "HK32F030Mxx Demo (ARMCC toolchain only)",
             "category": [
-                "HK/HK32/F0"
+                "MCU/HK/HK32/F0"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -316,7 +320,7 @@
             "file_name": "gd_gd32f103c8_demo.eide-template",
             "display_name": "GD32F1xx Demo",
             "category": [
-                "GD32/F1"
+                "MCU/GD32/F1"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -325,7 +329,7 @@
             "file_name": "gd32vf103_demo.eide-template",
             "display_name": "GD32VF103 Demo (RISC-V)",
             "category": [
-                "GD32/RISCV/F1"
+                "MCU/GD32/RISCV/F1"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -334,7 +338,7 @@
             "file_name": "nuvoton_mini58xx_demo.eide-template",
             "display_name": "MINI58xx Demo",
             "category": [
-                "Nuvoton/M0"
+                "MCU/Nuvoton/M0"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -343,7 +347,7 @@
             "file_name": "NUC029XAN_demo.eide-template",
             "display_name": "NUC029XAN Demo",
             "category": [
-                "Nuvoton/M0"
+                "MCU/Nuvoton/M0"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -352,7 +356,7 @@
             "file_name": "MS51XC0AE_demo.eide-template",
             "display_name": "MS51XC0AE Demo (Keil C51 Toolchain)",
             "category": [
-                "Nuvoton/8051/MS51"
+                "MCU/Nuvoton/8051/MS51"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -361,7 +365,7 @@
             "file_name": "MS51XB9AE_demo.eide-template",
             "display_name": "MS51XB9AE/MS51XB9BE Demo (Keil C51 Toolchain)",
             "category": [
-                "Nuvoton/8051/MS51"
+                "MCU/Nuvoton/8051/MS51"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -370,7 +374,7 @@
             "file_name": "HC32L110_demo.eide-template",
             "display_name": "HC32L110 Demo (for HC32L110C6PA)",
             "category": [
-                "HDSC/HC32L"
+                "MCU/HDSC/HC32L"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -379,7 +383,7 @@
             "file_name": "mcs51_sdcc_dht11_quickstart.eide-template",
             "display_name": "8051 DHT11 Demo (SDCC Toolchain)",
             "category": [
-                "8051"
+                "MCU/8051"
             ],
             "version": "1.2",
             "author": "github0null"
@@ -388,7 +392,7 @@
             "file_name": "89c52_sdcc_demo.eide-template",
             "display_name": "89c52 sdcc demo (SDCC Toolchain)",
             "category": [
-                "8051"
+                "MCU/8051"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -397,7 +401,7 @@
             "file_name": "stc15_demo.eide-template",
             "display_name": "STC15xx Demo (Keil C51 Toolchain)",
             "category": [
-                "STC/STC15"
+                "MCU/STC/STC15"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -406,7 +410,7 @@
             "file_name": "stc15f104w_sdcc_demo.eide-template",
             "display_name": "STC15F104W Demo (SDCC Toolchain)",
             "category": [
-                "STC/STC15"
+                "MCU/STC/STC15"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -415,7 +419,7 @@
             "file_name": "n76e003_demo.eide-template",
             "display_name": "N76E003 Demo (Keil C51 Toolchain)",
             "category": [
-                "Nuvoton/8051/N7XE"
+                "MCU/Nuvoton/8051/N7XE"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -424,7 +428,7 @@
             "file_name": "stm8s103f3_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (Blink)",
             "category": [
-                "ST/STM8/STM8S"
+                "MCU/ST/STM8/STM8S"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -433,7 +437,7 @@
             "file_name": "stm8s103f3_dht11_sensor_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (DHT11 Sensor)",
             "category": [
-                "ST/STM8/STM8S"
+                "MCU/ST/STM8/STM8S"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -442,7 +446,7 @@
             "file_name": "stm8s103f3_oled_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (OLED SSD1306)",
             "category": [
-                "ST/STM8/STM8S"
+                "MCU/ST/STM8/STM8S"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -451,7 +455,7 @@
             "file_name": "stm8s103f3_sdcc_quickstart.eide-template",
             "display_name": "STM8S103F3 Demo (SDCC Toolchain)",
             "category": [
-                "ST/STM8/STM8S"
+                "MCU/ST/STM8/STM8S"
             ],
             "version": "1.3",
             "author": "github0null"
@@ -460,7 +464,7 @@
             "file_name": "mm32f103c8_quickstart.eide-template",
             "display_name": "MM32F103C8 Demo (MindMotion MCU)",
             "category": [
-                "MindMotion/MM32F"
+                "MCU/MindMotion/MM32F"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -469,7 +473,7 @@
             "file_name": "stm32f1xx_uart_demo.eide-template",
             "display_name": "STM32F1XX USART Demo (Keil CMSIS pack)",
             "category": [
-                "ST/STM32/STM32F1"
+                "MCU/ST/STM32/STM32F1"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -478,7 +482,7 @@
             "file_name": "stm32f1xx_blink_demo.eide-template",
             "display_name": "STM32F1XX Blink Demo (STM32F10x StdPeriph Lib V3.5.0)",
             "category": [
-                "ST/STM32/STM32F1"
+                "MCU/ST/STM32/STM32F1"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -487,7 +491,7 @@
             "file_name": "stm32f1xx_gcc_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (GCC Toolchain)",
             "category": [
-                "ST/STM32/STM32F1"
+                "MCU/ST/STM32/STM32F1"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -496,7 +500,7 @@
             "file_name": "stm32f1xx_FreeRTOS_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (FreeRTOS)",
             "category": [
-                "ST/STM32/STM32F1",
+                "MCU/ST/STM32/STM32F1",
                 "RTOS/FreeRTOS"
             ],
             "version": "1.1",
@@ -506,7 +510,7 @@
             "file_name": "stm32f1xx_RT-Thread-Nano_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (RT-Thread-Nano)",
             "category": [
-                "ST/STM32/STM32F1",
+                "MCU/ST/STM32/STM32F1",
                 "RTOS/RT-Thread/Nano"
             ],
             "version": "1.0",
@@ -516,7 +520,7 @@
             "file_name": "stm32f1xx_uCOS-II_quickstart.eide-template",
             "display_name": "STM32F1XX Blink Demo (uCOS-II)",
             "category": [
-                "ST/STM32/STM32F1",
+                "MCU/ST/STM32/STM32F1",
                 "RTOS/uCOS-II"
             ],
             "version": "1.0",
@@ -526,7 +530,7 @@
             "file_name": "stm32f4xx_cubemx_demo.eide-template",
             "display_name": "STM32F407 Blink Demo (STM32CubeMX, GCC)",
             "category": [
-                "ST/STM32/STM32F4"
+                "MCU/ST/STM32/STM32F4"
             ],
             "version": "1.1",
             "author": "github0null"
@@ -535,7 +539,7 @@
             "file_name": "stm32f407_CubeMX_FreeRTOS+FatFs+USB_device_demo.eide-template",
             "display_name": "STM32F407VGT6 FreeRTOS + FatFs + USB_device Demo",
             "category": [
-                "ST/STM32/STM32F4",
+                "MCU/ST/STM32/STM32F4",
                 "RTOS/FreeRTOS"
             ],
             "version": "1.0",
@@ -545,7 +549,7 @@
             "file_name": "stm32f103c8_cubeMX_demo.eide-template",
             "display_name": "STM32F103C8 Demo (STM32CubeMX)",
             "category": [
-                "ST/STM32/STM32F1"
+                "MCU/ST/STM32/STM32F1"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -554,7 +558,7 @@
             "file_name": "stm32f103c8_ucos-ii_cubeMX_demo.eide-template",
             "display_name": "STM32F103C8 Demo (uCOS-II, STM32CubeMX)",
             "category": [
-                "ST/STM32/STM32F1",
+                "MCU/ST/STM32/STM32F1",
                 "RTOS/uCOS-II"
             ],
             "version": "1.0",
