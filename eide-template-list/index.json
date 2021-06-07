@@ -197,7 +197,7 @@
         },
         {
             "file_name": "WeAct_H750_QSPI.eide-template",
-            "display_name": "WeAct STM32H750VBT6 QSPI FLASH demo (qspi, gcc)",
+            "display_name": "WeAct STM32H750VBT6 QSPI FLASH demo (qspi, gcc, FreeRTOS)",
             "category": [
                 "Board/WeAct"
             ],
