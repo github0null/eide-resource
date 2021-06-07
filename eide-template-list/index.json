@@ -194,7 +194,7 @@
             "file_name": "WeAct_H750_bootloader.eide-template",
             "display_name": "WeAct STM32H750VBT6 QSPI FLASH bootloader (qspi, gcc, bootloader)",
             "category": [
-                "MCU/Board/WeAct"
+                "Board/WeAct"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -203,7 +203,7 @@
             "file_name": "WeAct_H750_QSPI.eide-template",
             "display_name": "WeAct STM32H750VBT6 QSPI FLASH demo (qspi, gcc, FreeRTOS)",
             "category": [
-                "MCU/Board/WeAct"
+                "Board/WeAct"
             ],
             "version": "1.0",
             "author": "github0null"
