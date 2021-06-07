@@ -175,9 +175,35 @@
         "K210/C++": {
             "display_name": "Standalone SDK",
             "description": ""
+        },
+        "Board": {
+            "display_name": "Dev Board",
+            "description": "开发板"
+        },
+        "Board/WeAct": {
+            "display_name": "WeAct",
+            "description": "WeAct 工作室"
         }
     },
     "template_list": [
+        {
+            "file_name": "WeAct_H750_bootloader.eide-template",
+            "display_name": "WeAct STM32H750VBT6 QSPI FLASH bootloader (qspi, gcc, bootloader)",
+            "category": [
+                "Board/WeAct"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
+            "file_name": "WeAct_H750_QSPI.eide-template",
+            "display_name": "WeAct STM32H750VBT6 QSPI FLASH demo (qspi, gcc)",
+            "category": [
+                "Board/WeAct"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
         {
             "file_name": "pfs173_demo.eide-template",
             "display_name": "padauk pfs173 demo (sdcc, pdk15)",
