@@ -191,6 +191,15 @@
     },
     "template_list": [
         {
+            "file_name": "H750_FatFs_FreeRTOS_demo.eide-template",
+            "display_name": "STM32H750VBT6 QSPI_FLASH FreeRTOS FatFs demo (qspi, gcc, FreeRTOS, FatFs)",
+            "category": [
+                "Board/WeAct"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
+        {
             "file_name": "WeAct_H750_QSPI.eide-template",
             "display_name": "STM32H750VBT6 QSPI_FLASH FreeRTOS blink demo (qspi, gcc, FreeRTOS)",
             "category": [
