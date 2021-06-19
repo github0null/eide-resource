@@ -1,8 +1,8 @@
 {
     "category_map": {
         "MCU": {
-            "display_name": "芯片（MCU）",
-            "description": ""
+            "display_name": "芯片",
+            "description": "(MCU)"
         },
         "MCU/8051": {
             "display_name": "8051",
@@ -157,8 +157,8 @@
             "description": ""
         },
         "RTOS": {
-            "display_name": "RTOS（Real-Time Operating System）",
-            "description": ""
+            "display_name": "RTOS",
+            "description": "(Real-Time Operating System)"
         },
         "RTOS/FreeRTOS": {
             "display_name": "FreeRTOS",
@@ -173,8 +173,8 @@
             "description": ""
         },
         "Board": {
-            "display_name": "开发板（Board）",
-            "description": ""
+            "display_name": "开发板",
+            "description": "(Board)"
         },
         "Board/K210": {
             "display_name": "K210",
