@@ -1,8 +1,8 @@
 {
     "category_map": {
         "MCU": {
-            "display_name": "MCU",
-            "description": "芯片"
+            "display_name": "芯片（MCU）",
+            "description": ""
         },
         "MCU/8051": {
             "display_name": "8051",
@@ -157,8 +157,8 @@
             "description": ""
         },
         "RTOS": {
-            "display_name": "RTOS",
-            "description": "Real-Time Operating System"
+            "display_name": "RTOS（Real-Time Operating System）",
+            "description": ""
         },
         "RTOS/FreeRTOS": {
             "display_name": "FreeRTOS",
@@ -173,8 +173,8 @@
             "description": ""
         },
         "Board": {
-            "display_name": "Board",
-            "description": "开发板"
+            "display_name": "开发板（Board）",
+            "description": ""
         },
         "Board/K210": {
             "display_name": "K210",
@@ -194,7 +194,8 @@
             "file_name": "H750_FatFs_FreeRTOS_demo.eide-template",
             "display_name": "STM32H750VBT6 QSPI_FLASH FreeRTOS FatFs demo (qspi, gcc, FreeRTOS, FatFs)",
             "category": [
-                "Board/WeAct"
+                "Board/WeAct",
+                "RTOS/FreeRTOS"
             ],
             "version": "1.0",
             "author": "github0null"
@@ -203,7 +204,8 @@
             "file_name": "WeAct_H750_QSPI.eide-template",
             "display_name": "STM32H750VBT6 QSPI_FLASH FreeRTOS blink demo (qspi, gcc, FreeRTOS)",
             "category": [
-                "Board/WeAct"
+                "Board/WeAct",
+                "RTOS/FreeRTOS"
             ],
             "version": "1.2",
             "author": "github0null"
