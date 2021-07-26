@@ -172,6 +172,10 @@
             "display_name": "Nano",
             "description": ""
         },
+	"RTOS/ThreadX": {
+	    "display_name": "ThreadX",
+	    "description": ""
+	},
         "Board": {
             "display_name": "开发板",
             "description": "(Board)"
@@ -190,6 +194,15 @@
         }
     },
     "template_list": [
+	{
+            "file_name": "threadx_stm32f7xx_demo.ewt",
+            "display_name": "STM32F7xx ThreadX demo (threadx, gcc, workspace)",
+            "category": [
+                "RTOS/ThreadX"
+            ],
+            "version": "1.0",
+            "author": "github0null"
+        },
         {
             "file_name": "H750_FatFs_FreeRTOS_demo.eide-template",
             "display_name": "STM32H750VBT6 QSPI_FLASH FreeRTOS FatFs demo (qspi, gcc, FreeRTOS, FatFs)",
