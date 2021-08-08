@@ -395,12 +395,12 @@
             "author": "github0null"
         },
         {
-            "file_name": "HC32L110_demo.eide-template",
+            "file_name": "HC32L110_demo.ept",
             "display_name": "HC32L110 Demo (for HC32L110C6PA)",
             "category": [
                 "MCU/HDSC/HC32L"
             ],
-            "version": "1.1",
+            "version": "1.2",
             "author": "github0null"
         },
         {
@@ -531,13 +531,13 @@
             "author": "github0null"
         },
         {
-            "file_name": "stm32f1xx_RT-Thread-Nano_quickstart.eide-template",
+            "file_name": "stm32f1xx_RT-Thread-Nano_quickstart.ept",
             "display_name": "STM32F1XX Blink Demo (RT-Thread-Nano)",
             "category": [
                 "MCU/ST/STM32/STM32F1",
                 "RTOS/RT-Thread/Nano"
             ],
-            "version": "1.0",
+            "version": "1.1",
             "author": "github0null"
         },
         {
@@ -551,12 +551,12 @@
             "author": "github0null"
         },
         {
-            "file_name": "stm32f4xx_cubemx_demo.eide-template",
+            "file_name": "stm32f4xx_cubemx_demo.ept",
             "display_name": "STM32F407 Blink Demo (STM32CubeMX, GCC)",
             "category": [
                 "MCU/ST/STM32/STM32F4"
             ],
-            "version": "1.1",
+            "version": "1.2",
             "author": "github0null"
         },
         {
