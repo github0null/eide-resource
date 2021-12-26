@@ -16,6 +16,14 @@
             "display_name": "8051",
             "description": ""
         },
+        "MCU/HLK": {
+            "display_name": "HLK",
+            "description": ""
+        },
+        "MCU/HLK/W80X": {
+            "display_name": "HLK W80X MCU",
+            "description": "W801, W806 ..."
+        },
         "MCU/STC": {
             "display_name": "STC",
             "description": "宏晶"
