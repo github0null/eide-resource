@@ -215,12 +215,12 @@
     },
     "template_list": [
         {
-            "file_name": "w806_demo.8bc3fb620591c9bd46e0801acb93cf4c.ept",
+            "file_name": "w806_demo.306d94b3aa6142f03edc1759f5409d85.ept",
             "display_name": "HLK-W806 demo (csky-elfabiv2, riscv, HLK-W806-KIT-V1.0)",
             "category": [
                 "MCU/HLK/W80X"
             ],
-            "version": "1.3",
+            "version": "1.4",
             "author": "github0null"
         },
         {
